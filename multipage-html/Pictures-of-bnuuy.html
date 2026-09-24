@@ -1,10 +1,58 @@
-<body>
-    <a href="index.html">Back</a>
-    <br />
-
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bnuuy Page</title>
+  </head>
+  <body>
+    <!-- Generic element using div -->
+    <div>
+      <a href="index.html">Back</a>
+    </div>
+    
+    <article>
+      <section>
     <h1>Pictures of bnuuy</h1>
-    <img src="images/bnuuy-pancake-bnuuy.png" alt="image 01" width="500px" />
-    <img src="images/bunny-bnuuy.png" alt="image 02" width="500px" />
-    <img src="images/guy with mk18.jpg" alt="image 02" width="500px" />
+      <img src="images/bnuuy-pancake-bnuuy.png" alt="image 01" width="500px" />
+      <img src="images/bunny-bnuuy.png" alt="image 02" width="500px" />
+      <img src="images/guy with mk18.jpg" alt="image 02" width="500px" />
+      </section>
+    </article>
+      <!-- Form Component -->
+    <section>
+      <h2>Share Your Thoughts</h2>
+      <form action="#" method="post">
+        <label for="name">Full Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your name"
+          required
+        /><br /><br />
+
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        /><br /><br />
+
+        <label for="feedback">Your Feedback:</label><br />
+        <textarea
+          id="feedback"
+          name="feedback"
+          rows="5"
+          cols="40"
+          placeholder="Write your feedback here..."
+        ></textarea
+        ><br /><br />
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
 
   </body>
